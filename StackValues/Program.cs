@@ -12,7 +12,25 @@ public class Program
 
 
         foreach (int item in StackObjects)
+        {
             Console.WriteLine("Ouptut of storedvalues:" + item);
+        }
+        {
+            Console.WriteLine("Peak element:" + StackObjects.Peek());
+            Console.WriteLine("pop of the storedvalues:" + StackObjects.Pop());
+            Console.WriteLine("after the peek and pop  stored values:" + StackObjects.Count);
+        }
+        {
+            Console.WriteLine("Peak element:" + StackObjects.Peek());
+            Console.WriteLine("pop of the storedvalues:" + StackObjects.Pop());
+            Console.WriteLine("after the peek and pop  stored values:" + StackObjects.Count);
+        }
+        {
+            Console.WriteLine("Peak element:" + StackObjects.Peek());
+            Console.WriteLine("pop of the storedvalues:" + StackObjects.Pop());
+            Console.WriteLine("after the peek and pop  stored values:" + StackObjects.Count);
+
+        }
         Console.ReadLine();
 
     }
